@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="dist/output.css" rel="stylesheet">
+  <link href="/css/style.css" rel="stylesheet">
+</head>
+
+<body class="bg-white min-h-screen flex flex-col justify-between">
+
+  <!-- Main Content Sections -->
+  <div class="flex-grow">
+    <!-- Navbar -->
+    <nav class="flex items-center justify-between py-4 container mx-auto px-5">
+      <div>
+        <img src="./assets/images/logo.png" alt="VivaDecor Logo" class="h-10">
+      </div>
+      <ul class="flex space-x-8 text-gray-900 font-semibold">
+        <li><a href="#" class="hover:text-gray-500">Home</a></li>
+        <li><a href="#" class="hover:text-gray-500">Services</a></li>
+        <li><a href="#" class="hover:text-gray-500">Contact</a></li>
+        <li><a href="#" class="hover:text-gray-500">Support</a></li>
+      </ul>
+      <a href="#" class="bg-gray-900 text-white px-4 py-2 rounded hover:bg-gray-800 font-semibold">Sign Up</a>
+    </nav>
+
+
+    <!-- Main Content Section -->
+    <section class="py-16">
+      <div class="container mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 gap-8">
+
+        <!-- Left Content (Text and Stats) -->
+        <div>
+          <!-- Title -->
+          <h1 class="text-7xl font-medium mb-9">Interior Design</h1>
+
+          <!-- Description -->
+          <p class="mb-20 text-gray-600">
+            Step into a world where the art of Interior Design is meticulously crafted to bring together timeless
+            elegance and cutting-edge modern Innovation, allowing you to transform your living spaces into the epitome
+            of luxury and sophistication.
+          </p>
+
+          <!-- Button -->
+          <button class="bg-black text-white py-3 px-6 rounded hover:bg-gray-800 mb-20 text-custom-size">
+            Start Project
+          </button>
+
+          <!-- Stats -->
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <!-- Stat 1 -->
+            <div>
+              <h3 class="text-3xl text-gray-600">400+</h3>
+              <p class="text-gray-600">Projects Complete</p>
+            </div>
+            <!-- Stat 2 -->
+            <div>
+              <h3 class="text-3xl text-gray-600">600+</h3>
+              <p class="text-gray-600">Satisfied Clients</p>
+            </div>
+            <!-- Stat 3 -->
+            <div>
+              <h3 class="text-3xl text-gray-600">100+</h3>
+              <p class="text-gray-600 mb-20">Unique Styles</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Content (Images) -->
+        <div class="relative flex flex-col"> <!-- Changed to relative -->
+          <!-- First Image -->
+          <div class="image-container mb-1">
+            <img src="/assets/images/Image1.png" alt="Interior Design Image 1" class="small-image1">
+          </div>
+          <!-- Second Image -->
+          <div class="image-container mb-1">
+            <img src="/assets/images/Image2.png" alt="Interior Design Image 2" class="small-image2">
+          </div>
+
+          <!-- Square Button -->
+          <div class="absolute bottom-10 right-0">
+            <button class="bg-gray-900 px-9 py-5 shadow-lg flex items-center justify-center">
+              <img src="/assets/images/arrow.png" alt="Icon" class="">
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Main Section -->
+    <section class="py-16">
+      <div class="container mx-auto px-4">
+        <!-- Main Title -->
+        <div class="mb-12 flex items-center">
+          <!-- Line -->
+          <div class="w-12 h-1 bg-black mr-4"></div>
+          <h2 class="text-5xl font-bold text-left">Our Services</h2>
+        </div>
+
+        <!-- Three Containers (Side by Side) -->
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+
+          <!-- Container 1 -->
+          <div class="flex space-x-4">
+            <!-- Image -->
+            <div>
+              <img src="/assets/images/lighting-design-icon.png" alt="Image 1" class="img-icon">
+            </div>
+            <!-- Text Content -->
+            <div>
+              <h3 class="text-3xl font-semibold mb-4">Lighting Design</h3>
+              <p class="text-gray-600">Achieve the perfect balance of ambient, task, and accent lighting for a functional atmosphere</p>
+            </div>
+          </div>
+
+          <!-- Container 2 -->
+          <div class="flex space-x-4">
+            <!-- Image -->
+            <div>
+              <img src="/assets/images/interior-design-icon.png" alt="Image 2" class="img-icon">
+            </div>
+            <!-- Text Content -->
+            <div>
+              <h3 class="text-3xl font-semibold mb-4">Interior Design</h3>
+              <p class="text-gray-600">From concept to completion, we oversee every detail to bring your vision to life efficiently</p>
+            </div>
+          </div>
+
+          <!-- Container 3 -->
+          <div class="flex space-x-4">
+            <!-- Image -->
+            <div>
+              <img src="/assets/images/outdoor-design-icon.png" alt="Image 3" class="img-icon">
+            </div>
+            <!-- Text Content -->
+            <div>
+              <h3 class="text-3xl font-semibold mb-4">Outdoor Design</h3>
+              <p class="text-gray-600">Celebrate the changing seasons with our seasonal outdoor decor services</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+<!-- Section with Two Columns (Image and Text Content) -->
+<section class="py-16">
+  <div class="container mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 gap-8">
+    
+    <!-- Left Side: Image -->
+    <div class="flex">
+      <img src="/assets/images/living-room.png" alt="Interior Design Image" class="w-full h-auto rounded-sm">
+    </div>
+
+    <!-- Right Side: Text Content and Accordion -->
+    <div>
+      <!-- Title -->
+      <h2 class="text-4xl font-bold mb-4">Designing Your Dream With Brilliance</h2>
+      <!-- Paragraph -->
+      <p class="text-gray-600 mb-8">
+        Elevate your spaces with bespoke interior designs that reflect your unique style and aspirations, crafted with precision and brilliance for an unforgettable living experience.
+      </p>
+      
+      <!-- Accordion -->
+      <div class="space-y-4 mb-8">
+        <!-- Accordion Item 1 -->
+        <div class="border-b pb-2">
+          <div class="flex justify-between items-center cursor-pointer">
+            <h3 class="text-xl font-semibold">Living Room Interior Design</h3>
+            <span class="text-xl font-bold">+</span>
+          </div>
+        </div>
+
+        <!-- Accordion Item 2 -->
+        <div class="border-b pb-2">
+          <div class="flex justify-between items-center cursor-pointer">
+            <h3 class="text-xl font-semibold">Commercial Office Room Interior Design</h3>
+            <span class="text-xl font-bold">+</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Button -->
+      <button class="mt-8 bg-black text-white py-3 px-6 rounded hover:bg-gray-800">
+        Learn More
+      </button>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<!-- Section with Image on Right and Three Containers on Left -->
+<section class="py-16">
+  <div class="container mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+
+    <!-- Left Side: Title and Three Containers -->
+    <div>
+      <!-- Main Title -->
+      <h2 class="text-4xl font-bold mb-12">Transforming Your Spaces</h2>
+
+      <!-- Three Containers -->
+      <div class="space-y-12">
+        <!-- Container 1 -->
+        <div class="flex items-start">
+          <!-- Icon -->
+          <img src="/assets/images/group1.png" alt="Icon 1" class="w-10 h-10 mr-6">
+          <!-- Text Content -->
+          <div>
+            <h3 class="text-2xl font-semibold mb-2">Creative Space Planning</h3>
+            <p class="text-gray-600">Maximize your space with innovative and functional planning, tailored to your needs and lifestyle.</p>
+          </div>
+        </div>
+
+        <!-- Container 2 -->
+        <div class="flex items-start">
+          <!-- Icon -->
+          <img src="/assets/images/group2.png" alt="Icon 2" class="w-10 h-10 mr-6">
+          <!-- Text Content -->
+          <div>
+            <h3 class="text-2xl font-semibold mb-2">Luxury Furnishings</h3>
+            <p class="text-gray-600">Our selection of premium furnishings adds sophistication and elegance to every room.</p>
+          </div>
+        </div>
+
+        <!-- Container 3 -->
+        <div class="flex items-start">
+          <!-- Icon -->
+          <img src="/assets/images/group3.png" alt="Icon 3" class="w-10 h-10 mr-6">
+          <!-- Text Content -->
+          <div>
+            <h3 class="text-2xl font-semibold mb-2">Bespoke Design Solutions</h3>
+            <p class="text-gray-600">Tailored interior designs that reflect your personal style and enhance your living experience.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right Side: Image -->
+    <div class="flex justify-end">
+      <img src="/assets/images/dream.png" alt="Room Design Image" class="w-full h-full object-cover rounded-lg img-dream">
+    </div>
+
+  </div>
+</section>
+
+<!-- Subscribe Section -->
+<section class="py-16 bg-white relative">
+  <div class="container mx-auto text-center w-1/2">
+    <!-- Title -->
+    <h2 class="text-4xl font-bold mb-4">Subscribe to Our Newsletter for Design Insights</h2>
+
+    <!-- Paragraph -->
+    <p class="text-gray-600 mb-8">Be the first to discover trends, inspirations, and special offers as we bring the world of design directly to your inbox.</p>
+
+    <!-- Input and Button -->
+    <div class="relative z-10">
+      <div class="absolute inset-x-0 top-9 -mb-12 flex justify-center">
+        <input type="email" placeholder="Enter your email address" class="w-full max-w-md p-4 rounded-l-lg border border-gray-300 shadow-md focus:outline-none focus:ring-2 focus:ring-gray-500">
+        <button class="bg-black text-white px-6 py-4 rounded-r-lg hover:bg-gray-800">Subscribe</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  </div>
+
+<!-- Footer -->
+<footer class="bg-gray-900 text-white py-16">
+  <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
+
+    <!-- Column 1 -->
+    <div>
+      <img src="./assets/images/logo2.png" alt="VivaDecor Logo" class="h-10">
+      <p class="mt-4">Your premier destination for luxury and modern interior design.</p>
+      <div class="flex space-x-4 mt-6">
+        <a href="#"><img src="/assets/images/facebook.png" alt="Facebook"></a>
+        <a href="#"><img src="/assets/images/instagram.png" alt="Instagram"></a>
+        <a href="#"><img src="/assets/images/twitter.png" alt="Twitter"></a>
+        <a href="#"><img src="/assets/images/linkedin.png" alt="LinkedIn"></a>
+      </div>
+    </div>
+
+    <!-- Column 2 -->
+    <div>
+      <h4 class="font-bold mb-4">Our Services</h4>
+      <ul>
+        <li class="mb-2"><a href="#">Interior Design</a></li>
+        <li class="mb-2"><a href="#">Outdoor Design</a></li>
+        <li class="mb-2"><a href="#">Lighting Design</a></li>
+        <li><a href="#">Office Design</a></li>
+      </ul>
+    </div>
+
+    <!-- Column 3 -->
+    <div>
+      <h4 class="font-bold mb-4">Our Services</h4>
+      <ul>
+        <li class="mb-2"><a href="#">Reviews</a></li>
+        <li class="mb-2"><a href="#">Careers</a></li>
+        <li class="mb-2"><a href="#">Pricing</a></li>
+        <li><a href="#">Press Inquiries</a></li>
+      </ul>
+    </div>
+
+    <!-- Column 4 -->
+    <div>
+      <h4 class="font-bold mb-4">Contact Us</h4>
+      <ul>
+        <li class="mb-2"><a href="mailto:info@vivadecor.com">info@vivadecor.com</a></li>
+        <li>Design Avenue</li>
+        <li>Cityville, CA 90210</li>
+        <li>United States</li>
+      </ul>
+    </div>
+
+  </div>
+</footer>
+
+</body>
+
+</html>

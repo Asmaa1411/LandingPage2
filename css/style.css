@@ -1,0 +1,41 @@
+/* section1 */
+.small-image1 {
+    width: 50%;
+    height: 260px;
+    object-fit: cover;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .small-image2 {
+    width: 75%;
+    height: 210px;
+    object-fit: cover;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    left: 80px;
+    bottom: 40px;
+  }
+  .right {
+    position: relative;
+  }
+  .image-container {
+    margin-bottom: 16px;
+  }
+
+
+  
+/* section2 */
+  .img-icon {
+    width: 100px;
+    height: 60px;
+  }
+
+/*section 3*/
+.img-dream {
+    height: 550px;
+    width: 450px;
+}
+  
