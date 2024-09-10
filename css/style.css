@@ -34,4 +34,16 @@
     height: 550px;
     width: 450px;
 }
+/*last section*/
+.absolute-container {
+  top: 230px;
+left: 210px;
+}
+.container-1 {
+  height: 450px;
+
+}
+.container-2 {
+  height: 450px;
+}
   
