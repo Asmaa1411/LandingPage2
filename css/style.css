@@ -8,7 +8,6 @@
     right: 0;
     top: 0;
   }
-
   .small-image2 {
     width: 75%;
     height: 210px;
@@ -24,9 +23,6 @@
   .image-container {
     margin-bottom: 16px;
   }
-
-
-  
 /* section2 */
   .img-icon {
     width: 100px;
@@ -38,4 +34,17 @@
     height: 550px;
     width: 450px;
 }
+/*last section*/
+.absolute-container {
+  top: 230px;
+left: 210px;
+}
+.container-1 {
+  height: 450px;
+
+}
+.container-2 {
+  height: 450px;
+}
+
   
